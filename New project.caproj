@@ -1,0 +1,218 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2project>
+    <name>New project</name>
+    <description></description>
+    <version>1.0.0.0</version>
+    <author></author>
+    <author-email></author-email>
+    <author-website>http://</author-website>
+    <app-id>com.mycompany.myapp</app-id>
+    <unique-id>1gtacue3ind4c</unique-id>
+    <saved-with-version>28000</saved-with-version>
+    <used-plugins>
+        <plugin author="Scirra" id="LocalStorage" version="1">Local storage</plugin>
+        <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="Text" version="1">Text</plugin>
+        <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
+        <plugin author="Scirra" id="Touch" version="1">Touch</plugin>
+        <plugin author="Zack0Wack0/Scirra" id="WebStorage" version="1">WebStorage</plugin>
+    </used-plugins>
+    <used-behaviors>
+        <behavior author="Scirra" id="Bullet" version="1">Bullet</behavior>
+        <behavior author="Scirra" id="Platform" version="1">Platform</behavior>
+        <behavior author="Scirra" id="bound" version="1">Bound to layout</behavior>
+        <behavior author="Scirra" id="solid" version="1">Solid</behavior>
+    </used-behaviors>
+    <used-effects />
+    <configurations>
+        <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
+    </configurations>
+    <window-size>
+        <width>1708</width>
+        <height>960</height>
+    </window-size>
+    <pixel-rounding>0</pixel-rounding>
+    <preview-effects>1</preview-effects>
+    <use-loader-layout>0</use-loader-layout>
+    <configuration-settings>
+        <prop name="Clear background">Yes</prop>
+        <prop name="Enable WebGL">On</prop>
+        <prop name="Fullscreen in browser">Letterbox scale</prop>
+        <prop name="Fullscreen scaling">High quality</prop>
+        <prop name="Loader style">Progress bar &amp; logo</prop>
+        <prop name="Orientations">Any</prop>
+        <prop name="Pause on unfocus">No</prop>
+        <prop name="Physics engine">Box2D web</prop>
+        <prop name="Preview browser">Chrome</prop>
+        <prop name="Sampling">Linear</prop>
+        <prop name="Use high-DPI display">Yes</prop>
+    </configuration-settings>
+    <object-folder>
+        <object-type name="TitleText" sid="1127745749950037">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="PlayButton" sid="569654274111154">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="HighScoreText" sid="3797290141502895">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="AboutButton" sid="8934446463205713">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Touch" sid="4652883292237378">
+            <plugin id="Touch" />
+        </object-type>
+        <object-type name="WebStorage" sid="830308410683887">
+            <plugin id="WebStorage" />
+        </object-type>
+        <object-type name="QuitButton" sid="1946699446530611">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="TimerText" sid="4976986751866014">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="AboutText" sid="2003947710159763">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="HomeButton" sid="5325566235269244">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="TiledBackground" sid="3043050579368738">
+            <plugin id="TiledBg" />
+            <texture />
+        </object-type>
+        <object-type name="HUDBanner" sid="2899343434799577">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="6994997692522372" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="LocalStorage" sid="5467960120736864">
+            <plugin id="LocalStorage" />
+        </object-type>
+        <object-type name="GoodObject" sid="2165311817883778">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Bullet" sid="3069380247197776">
+                    <behavior id="Bullet" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="7736889586663928" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Kevin\Desktop\po.png">
+                        <collision-poly>
+                            <point x="0.16" y="0.16" />
+                            <point x="0.5" y="0.02" />
+                            <point x="0.84" y="0.16" />
+                            <point x="0.98" y="0.5" />
+                            <point x="0.84" y="0.84" />
+                            <point x="0.5" y="0.98" />
+                            <point x="0.16" y="0.84" />
+                            <point x="0.02" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="BadObject" sid="8287873416859636">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Bullet" sid="6725804083964912">
+                    <behavior id="Bullet" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="6486116977754876" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Kevin\Desktop\fl.png">
+                        <collision-poly>
+                            <point x="0.36" y="0.36" />
+                            <point x="0.5" y="0.16" />
+                            <point x="0.56" y="0.44" />
+                            <point x="0.82" y="0.5" />
+                            <point x="0.84" y="0.84" />
+                            <point x="0.5" y="0.98" />
+                            <point x="0.16" y="0.84" />
+                            <point x="0.24" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Platform" sid="2082281943889783">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="4445140870977502">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9395870091951782" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="player" sid="5382669013073987">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Platform" sid="216786351093428">
+                    <behavior id="Platform" />
+                </behavior-type>
+                <behavior-type name="BoundToLayout" sid="6030415746453946">
+                    <behavior id="bound" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="7618950574268397" speed="5">
+                    <frame duration="1" hotspotX="0.519231" hotspotY="0.5" original-source="C:\Users\Kevin\Desktop\01ship.png">
+                        <collision-poly>
+                            <point x="0.384615" y="0.357143" />
+                            <point x="0.5" y="0.285714" />
+                            <point x="0.919231" y="0.5" />
+                            <point x="0.738462" y="0.757143" />
+                            <point x="0.5" y="0.778571" />
+                            <point x="0.265385" y="0.753571" />
+                            <point x="0.103846" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+    </object-folder>
+    <families />
+    <layout-folder>
+        <layout>Game Layout.xml</layout>
+        <layout>Start Layout.xml</layout>
+        <layout>End Layout.xml</layout>
+        <layout>About Layout.xml</layout>
+    </layout-folder>
+    <event-folder>
+        <event-sheet>Game Event Sheet.xml</event-sheet>
+        <event-sheet>Start Event Sheet.xml</event-sheet>
+        <event-sheet>End Event Sheet.xml</event-sheet>
+        <event-sheet>About Event Sheet.xml</event-sheet>
+    </event-folder>
+    <global-instances>
+        <global-instance type="Touch" uid="12">
+            <properties>
+                <use-mouse-input>Yes</use-mouse-input>
+            </properties>
+        </global-instance>
+        <global-instance type="WebStorage" uid="13" />
+        <global-instance type="LocalStorage" uid="5" />
+    </global-instances>
+    <sounds-folder />
+    <music-folder />
+    <files-folder>
+        <file-folder name="Icons">
+            <file name="icon-16.png" />
+            <file name="icon-32.png" />
+            <file name="icon-114.png" />
+            <file name="icon-128.png" />
+            <file name="icon-256.png" />
+            <file name="loading-logo.png" />
+        </file-folder>
+    </files-folder>
+</c2project>
